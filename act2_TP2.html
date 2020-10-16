@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Inscription étudiants</title>
+</head>
+
+<body>
+  <form>
+    <table>
+      <tr>
+        <TD><label for="i1">CIN:</label></TD>
+        <td>
+          <input type="tel" id="i1" placeholder="8 chiffre pour cin" pattern="[0-9]{8}" required>
+        </td>
+
+      </tr>
+
+      <td>
+        <br>
+        <label for="i2">NOM:</label>
+      </td>
+      <td>
+        <input type="text" id="i2" pattern="[A-Z]{1}[a-z]*">
+      </td>
+
+      <tr>
+        <td>
+          <br>
+          <label for="i3">Prénom</label>
+        </td>
+        <td>
+          <input type="text" id="i3" placeholder="1sr lettre Upcased" pattern="[A-Z]{1}[a-z]*">
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <br>
+          <label for="id4">Date:</label>
+        </td>
+        <td>
+          <input type="date" id="i4" min="1984-12-31" max="1995-01-01">
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <br>
+          <label for="id5">Couleur préféré:</label>
+        </td>
+        <td>
+          <input type="color" id="id5" value="#00FFFF">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <br>
+          <label for="id6">Photo d'identité:</label>
+        </td>
+        <td>
+          <input type="file" id=id6>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <br>
+          <label for="id7">CV</label>
+        </td>
+        <td>
+          <input type="file" id="id7">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <br>
+          <label for="i8">Email:</label>
+        </td>
+        <td>
+          <input type="email" id="i8">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <label for="i9">Télephone:</label>
+        </td>
+        <td>
+          <input type="tel" id="i9">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <br>
+          <label>sex</label>
+        </td>
+        <td><input type="button" name="gender" id="i10">
+          <label for="i10">Homme</label>
+          <br>
+          <input type="button" name="gender" id="i11">
+          <label for="i11">Femme</label>
+
+        </td>
+      </tr>
+      <td>
+        <label>Domaines:</label>
+      </td>
+      <td>
+        <input type="checkbox" id="i12">
+        <label for="i12">Cloud Computing</label>
+        <br>
+        <input type="checkbox" id="i13">
+        <label for="i13">Big Data</label>
+        <br>
+        <input type="checkbox" id="i14">
+        <label for="i14">Mobile</label>
+        <br>
+        <input type="checkbox" id="i15">
+        <label for="i15">Jeux Vidéos</label>
+        <br>
+      </td>
+
+      <tr>
+        <td>
+          <br>
+          <label>Moyenne</label>
+        <td>
+          0<input type="range">20
+        </td>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td>
+          <br>
+          <input type="submit" value="Valider">
+        </td>
+
+        <td>
+          <br>
+          <input type="reset" value="Annuler">
+        </td>
+      </tr>
+    </table>
+
+
+  </form>
+</body>
+
+</html>
